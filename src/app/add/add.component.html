@@ -1,0 +1,10 @@
+<h2>Add Person</h2>
+<div>
+  <label for="person-firstname">Firstname: </label>
+  <input id="person-firstname" [(ngModel)]="firstname" placeholder="Firstname"/>
+</div>
+<div>
+  <label for="person-lastname">Lastname: </label>
+  <input id="person-lastname" [(ngModel)]="lastname" placeholder="Lastname"/>
+</div>
+<button type="button" (click)="add()">Save</button>

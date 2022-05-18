@@ -1,0 +1,7 @@
+<h2>Existing Persons</h2>
+<div class="heroes-menu">
+  <div *ngFor="let person of data">
+    {{ person.firstname }} {{ person.lastname }}
+  </div>
+</div>
+<button type="button" (click)="back()">go back</button>
